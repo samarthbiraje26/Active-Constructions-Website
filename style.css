@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  background: #f0f8ff; /* light blue background */
+  color: #002244; /* dark blue text */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1100px;
+  padding: 40px 0;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.dark {
+  background-color: #e0f7fa; /* light teal-blue */
+}
+
+.header {
+  background: linear-gradient(to right, #0077b6, #00b4d8); /* blue gradient */
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 56px;
+  color: #ffdd00; /* bright yellow */
+}
+
+.header p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #ffdd00; /* bright yellow */
+  color: #002244;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: 2px solid #00b4d8;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #002244;
+}
+
+form button {
+  padding: 12px;
+  background: #ffdd00; /* bright yellow */
+  color: #002244;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #002244;
+  color: #ffffff;
+}
