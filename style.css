@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   background: #f0f8ff;
   color: #002244; /* dark blue text */
@@ -56,12 +56,17 @@ body {
 
 ul {
   list-style: none;
+  margin-bottom: 10px;
   padding-left: 0;
 }
 
 ul li {
   padding: 8px 0;
   font-size: 18px;
+}
+
+.services{
+  margin-top: -10px;
 }
 
 .gallery {
