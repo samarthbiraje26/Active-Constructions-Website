@@ -1,6 +1,6 @@
-// Example JavaScript for form submission alert
-document.querySelector("form").addEventListener("submit", function (e) {
-  e.preventDefault();
-  alert("Thank you for contacting Active Constructions! We'll get back to you soon.");
-  this.reset();
+document.addEventListener('DOMContentLoaded', () => {
+  // Example: safe navbar toggle
+  const btn = document.querySelector('[data-nav-toggle]');
+  const nav = document.querySelector('[data-nav]');
+  if (btn && nav) btn.addEventListener('click', () => nav.classList.toggle('open'));
 });
